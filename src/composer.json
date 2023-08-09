@@ -1,0 +1,25 @@
+{
+  "name": "app/test",
+  "type": "project",
+  "description": "Import calls teckets db",
+  "authors": [
+    {
+      "name": "Samir GUIDERK",
+      "email": "samir.guiderk@gmail.com"
+    }
+  ],
+  "require": {
+    "corneltek/cliframework": "*",
+    "guzzlehttp/guzzle": "^7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.7",
+    "phpdocumentor/reflection-docblock": "~5.3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TemperApp\\": "app",
+      "TemperAppTest\\": "tests"
+    }
+  }
+}
